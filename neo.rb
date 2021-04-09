@@ -339,7 +339,7 @@ ENDTEXT
 
     def encourage
       puts
-      puts "The Master says:"
+      puts "The Force says:"
       puts Color.cyan("  You have not yet reached enlightenment.")
       if ((recents = progress.last(5)) && recents.size == 5 && recents.uniq.size == 1)
         puts Color.cyan("  I sense frustration. Do not be afraid to ask for help.")
